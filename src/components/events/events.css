@@ -37,6 +37,16 @@
     transition: 0.3s ease-in-out;
 }
 
+button{
+    height: 30px;
+    width: 100px;
+    background-color: #3461b6;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .event-card:hover{
     scale: 1.05;
 }
