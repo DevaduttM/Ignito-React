@@ -10,7 +10,7 @@ const cardVariants = {
       opacity: 1,
       y: 0,
       transition: {
-        delay: index * 0.15, // Delay for staggered effect
+        delay: index * 0.15, 
         duration: 0.5,
       },
     }),
@@ -27,7 +27,7 @@ const cardVariants = {
             {cards.map((card, index) => (
             <motion.div
                 key={card}
-                custom={index} // Pass the index to variants for stagger effect
+                custom={index} 
                 initial="hidden"
                 whileInView="visible"
                 variants={cardVariants}

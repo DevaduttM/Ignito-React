@@ -117,3 +117,46 @@
     flex-direction: column;
 
 }
+
+@media only screen and (max-width: 700px) {
+    .title{
+        font-size: 3.5rem;
+    }
+
+    .catch{
+        font-size: 1rem;
+        word-spacing: 10px;
+        margin-top: 5px;
+    }
+
+    .logo{
+        scale: 0.6;
+        left: -25px;
+        top: -20px;
+    }
+
+    .home-p,
+    .home-a{
+        font-size: 1rem;
+    }
+
+    .aboutp{
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .about-container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .abt-content{
+        width: 70%;
+    }
+
+    .abouth2{
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 0;
+    }
+}
