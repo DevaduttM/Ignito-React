@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './components/home/home'
 import Navbar from './components/navbar/navbar'
 import Preloader from './components/preloader/preloader'
+import Events from './components/events/events'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
 
         <Routes>
           <Route index element = {<Home />} />
+          <Route path='events' element = { <Events />} />
         </Routes>
       
       </BrowserRouter>

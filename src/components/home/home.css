@@ -53,14 +53,14 @@
     text-align: justify;
     height: 60vh;
     width: 90vw;
-    background-image: linear-gradient(#6e6e6e46, #3a3a3a2d);
+    background-image: linear-gradient(#272d5c75, #3a3a3a2d);
     z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 120px;
-    backdrop-filter: blur( 2px );
-    -webkit-backdrop-filter: blur( 2px );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 5px );
     border: 2px solid #9c959552;
     border-radius: 30px;
 }
